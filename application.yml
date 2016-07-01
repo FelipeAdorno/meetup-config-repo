@@ -1,8 +1,6 @@
 eureka:
   instance:
     preferIpAddress: true
-ribbon:
-  ServerListRefreshInterval: 1000
 logging:
   level:
     com.netflix.discovery: 'OFF'
