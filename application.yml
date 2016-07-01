@@ -4,3 +4,5 @@ eureka:
 logging:
   level:
     com.netflix.discovery: 'OFF'
+ribbon:
+  ServerListRefreshInterval: 1000
