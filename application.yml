@@ -1,5 +1,3 @@
 eureka:
-  instance:
-    preferIpAddress: true
-    statusPageUrlPath: ${management.context-path}/info
-    healthCheckUrlPath: ${management.context-path}/health
+  client:
+    enabled: false
